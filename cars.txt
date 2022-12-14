@@ -1,0 +1,9 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plot
+import matplotlib.cm as cm
+Cars = pd.read_csv("C:/Users/NISHITHA/Downloads/archive (1)/Cars93.csv")
+Cars
+Cars = pd.read_csv("C:/Users/NISHITHA/Downloads/archive (1)/Cars93.csv")
+columns=["Manufacturer","Model","Type","Price","Passengers","Horsepower"]
+Cars[columns].head()
